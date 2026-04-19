@@ -1,0 +1,2 @@
+# Hoja_De_Ruta_G7Cripto_Sinparty_V.041926
+Hoja_De_Ruta_G7Cripto_Sinparty_V.041926
