@@ -3,102 +3,104 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hoja de Ruta – SinParty x G7Cripto Alliance</title>
+<title>G7Cripto × SinParty – Hoja de Ruta · 25 abril 2026</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',Arial,sans-serif;background:#f4f4f6;color:#1a1a1a;min-height:100vh;padding:32px 16px}
-.wrapper{max-width:860px;margin:0 auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 32px rgba(0,0,0,.10)}
-
-/* HEADER */
-.header{background:#0d0d0d;padding:32px 40px 28px;display:flex;align-items:center;justify-content:space-between}
-.logo-g7-text{color:#fff;font-size:26px;font-weight:500;letter-spacing:-1px}
-.logo-g7-sub{color:#888;font-size:12px;margin-top:4px}
-.header-center{text-align:center}
-.header-title{color:#fff;font-size:14px;font-weight:500;opacity:.85}
-.header-sub{color:#666;font-size:12px;margin-top:4px}
-.sinparty-name{font-size:24px;font-weight:500;color:#fff;letter-spacing:-.5px;display:flex;align-items:flex-start;gap:2px}
-.sinparty-star{font-size:12px;margin-top:-2px}
-
-/* CONTENT */
-.content{padding:0 36px 48px;background:#fff}
-
-/* STATUS BANNER */
-.status-banner{background:#f8f8fa;border:1px solid #e8e8ec;border-radius:10px;padding:16px 20px;margin:28px 0 24px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.status-label{color:#888;font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
-.status-val{font-weight:500;font-size:13px;color:#1a1a1a}
-.badge-ready{background:#e6f4ee;color:#1a7a42;font-size:11px;padding:2px 8px;border-radius:20px;font-weight:500}
-.badge-pending{background:#fef3e2;color:#a05e0a;font-size:11px;padding:2px 8px;border-radius:20px;font-weight:500}
-
-/* COST TABLE */
-.section-title{font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.6px;margin-bottom:12px}
-.cost-table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:28px}
-.cost-table th{text-align:left;padding:8px 12px;color:#888;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid #e8e8ec}
-.cost-table td{padding:10px 12px;border-bottom:1px solid #f0f0f4;color:#1a1a1a}
-.cost-table tr.highlight td{background:#f0f6ff}
-.cost-table tr.highlight td:first-child{border-left:3px solid #1a5fa5}
-.pill-bad{background:#fdecea;color:#a32d2d;padding:2px 8px;border-radius:20px;font-size:12px;font-weight:500;display:inline-block}
-.pill-good{background:#e6f4ee;color:#1a7a42;padding:2px 8px;border-radius:20px;font-size:12px;font-weight:500;display:inline-block}
-.pill-day{background:#e8f0fe;color:#1a3fa5;padding:2px 8px;border-radius:20px;font-size:12px;font-weight:500;display:inline-block}
-
-/* TEAMS */
-.teams-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:32px}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f4f4f6;color:#1a1a1a;padding:32px 16px}
+.wrapper{max-width:900px;margin:0 auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 32px rgba(0,0,0,.1)}
+.header{background:#0d0d0d;padding:28px 36px;display:flex;align-items:center;justify-content:space-between}
+.logo{color:#fff;font-size:24px;font-weight:500;letter-spacing:-1px}
+.logo-sub{color:#888;font-size:12px;margin-top:4px}
+.hc{text-align:center}
+.hc-t{color:#fff;font-size:13px;font-weight:500;opacity:.85}
+.hc-s{color:#666;font-size:11px;margin-top:4px}
+.sinparty{color:#fff;font-size:22px;font-weight:500}
+.content{padding:0 32px 48px}
+.live-note{background:#fff8e1;border:1px solid #f9a825;border-left:4px solid #f9a825;border-radius:8px;padding:13px 18px;margin:24px 0 8px;font-size:13px;color:#5a3e00;line-height:1.75;display:flex;align-items:flex-start;gap:10px}
+.live-icon{font-size:18px;flex-shrink:0}
+.status-grid{background:#f8f8fa;border:1px solid #e8e8ec;border-radius:10px;padding:16px 20px;margin:16px 0 24px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.s-label{color:#888;font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.s-val{font-weight:500;font-size:13px}
+.badge{font-size:11px;padding:2px 9px;border-radius:20px;font-weight:500;display:inline-block;margin-right:4px}
+.b-ready{background:#e6f4ee;color:#1a7a42}
+.b-pending{background:#fef3e2;color:#a05e0a}
+.b-blue{background:#e8f0fe;color:#1a3fa5}
+.b-good{background:#e6f4ee;color:#1a7a42}
+.b-bad{background:#fdecea;color:#a32d2d}
+.sec-title{font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.6px;margin:24px 0 10px}
+.card{background:#f8f8fa;border:1px solid #e8e8ec;border-radius:10px;padding:14px 16px;margin-bottom:12px;font-size:13px;line-height:1.7}
+.note{border-radius:8px;padding:10px 14px;margin:10px 0;font-size:12px;line-height:1.7}
+.note-info{background:#eef2fb;border:1px solid #c5d5f055;color:#1a2a5a}
+.note-warn{background:#fff8ee;border:1px solid #f9a82555;color:#7a4e0a}
+.note-success{background:#e6f4ee;border:1px solid #1a7a4255;color:#1a4a2a}
+.note-action{background:#fef4f4;border:1px solid #e8b4b455;color:#7a1a1a}
+.cost-table{width:100%;border-collapse:collapse;font-size:13px}
+.cost-table th{text-align:left;padding:8px 12px;color:#888;font-weight:600;font-size:11px;text-transform:uppercase;border-bottom:1px solid #e8e8ec}
+.cost-table td{padding:10px 12px;border-bottom:1px solid #f0f0f4}
+.cost-table tr.hl td{background:#f0f6ff}
+.cost-table tr.hl td:first-child{border-left:3px solid #1a5fa5;font-weight:600}
+.notes-box{background:#f0f6ff;border:1px solid #c5d5f0;border-radius:8px;padding:12px 16px;margin:0 0 8px;font-size:12px;color:#1a2a5a;line-height:1.7}
+.teams-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:8px}
 .team-card{background:#f8f8fa;border:1px solid #e8e8ec;border-radius:10px;padding:16px 18px}
-.team-card-title{font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:600;margin-bottom:12px}
-.team-card.g7 .team-card-title{color:#1a3fa5}
-.team-card.sin .team-card-title{color:#555}
-.team-member{display:flex;align-items:center;gap:10px;margin-bottom:9px}
-.team-member:last-child{margin-bottom:0}
+.tc-title{font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:600;margin-bottom:12px}
+.tc-g7 .tc-title{color:#1a3fa5}
+.tc-sin .tc-title{color:#555}
+.member{display:flex;align-items:center;gap:10px;margin-bottom:9px}
 .avatar{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:600;flex-shrink:0}
 .av-blue{background:#dce8fa;color:#1a3fa5}
 .av-dark{background:#222;color:#fff}
-.member-name{font-size:13px;font-weight:500;color:#1a1a1a}
-.member-role{font-size:11px;color:#888;margin-top:1px}
-
-/* PHASES */
-.phase-block{margin-bottom:24px}
+.m-name{font-size:13px;font-weight:500}
+.m-role{font-size:11px;color:#888;margin-top:1px}
+.timeline{border-left:2px solid #1a5fa5;padding-left:16px;margin:8px 0 24px}
+.tl-item{display:flex;align-items:center;gap:10px;margin-bottom:10px;position:relative}
+.tl-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-left:-21px}
+.tl-done{background:#1a7a42}
+.tl-prog{background:#1a5fa5}
+.tl-pend{background:#ddd}
 .phase-header{display:flex;align-items:center;justify-content:space-between;padding:11px 16px;border-radius:10px;margin-bottom:12px}
-.phase-header.ph1{background:#eef2fb;border-left:3px solid #1a5fa5}
-.phase-header.ph2{background:#fff8ee;border-left:3px solid #d97f0a}
-.phase-header.ph3{background:#eef6f1;border-left:3px solid #1a7a42}
-.phase-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.6px;margin-bottom:2px}
-.ph1 .phase-label{color:#1a3fa5}
-.ph2 .phase-label{color:#a05e0a}
-.ph3 .phase-label{color:#1a5a2f}
-.phase-name{font-size:14px;font-weight:500;color:#1a1a1a}
-.phase-date{font-size:12px;color:#888}
-
-/* ETAPAS */
+.ph1{background:#eef2fb;border-left:3px solid #1a5fa5}
+.ph2{background:#fff8ee;border-left:3px solid #d97f0a}
+.ph3{background:#eef6f1;border-left:3px solid #1a7a42}
+.ph-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.6px;margin-bottom:2px}
+.ph1 .ph-label{color:#1a5fa5}
+.ph2 .ph-label{color:#a05e0a}
+.ph3 .ph-label{color:#1a5a2f}
+.ph-name{font-size:14px;font-weight:500}
+.ph-date{font-size:12px;color:#888}
 .etapa{border:1px solid #e8e8ec;border-radius:10px;margin-bottom:8px;overflow:hidden}
-.etapa-header{display:flex;align-items:center;gap:10px;padding:13px 16px;cursor:pointer;background:#fff;user-select:none}
-.etapa-header:hover{background:#f8f8fa}
-.etapa-num{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;flex-shrink:0}
-.num-done{background:#1a7a42;color:#fff}
-.num-progress{background:#1a5fa5;color:#fff}
-.num-pending{background:#f0f0f4;color:#888;border:1px solid #ddd}
-.etapa-title{font-size:13px;font-weight:500;flex:1;color:#1a1a1a}
-.etapa-status{font-size:11px;padding:2px 9px;border-radius:20px;white-space:nowrap}
-.st-done{background:#e6f4ee;color:#1a7a42}
-.st-progress{background:#e8f0fe;color:#1a3fa5}
-.st-pending{background:#f0f0f4;color:#888}
-.etapa-arrow{font-size:13px;color:#aaa;transition:transform .2s;display:inline-block}
-.etapa-arrow.open{transform:rotate(90deg)}
+.etapa-hdr{display:flex;align-items:center;gap:10px;padding:13px 16px;cursor:pointer;background:#fff;user-select:none}
+.etapa-hdr:hover{background:#f8f8fa}
+.enum{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;flex-shrink:0}
+.en-done{background:#1a7a42;color:#fff}
+.en-prog{background:#1a5fa5;color:#fff}
+.en-pend{background:#f0f0f4;color:#888;border:1px solid #ddd}
+.etapa-title{flex:1;font-size:13px;font-weight:500}
+.estatus{font-size:11px;padding:2px 9px;border-radius:20px;white-space:nowrap}
+.es-done{background:#e6f4ee;color:#1a7a42}
+.es-prog{background:#e8f0fe;color:#1a3fa5}
+.es-pend{background:#f0f0f4;color:#888}
+.arrow{font-size:13px;color:#aaa;transition:transform .2s;display:inline-block}
+.arrow.open{transform:rotate(90deg)}
 .etapa-body{padding:16px 18px 18px;border-top:1px solid #f0f0f4;background:#fafafa;display:none;font-size:13px;line-height:1.75;color:#2a2a2a}
 .etapa-body.open{display:block}
-.etapa-body ul{padding-left:18px;margin:6px 0 10px}
-.etapa-body li{margin-bottom:5px}
-.etapa-body strong{font-weight:600}
-.sub-title{font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:600;color:#888;margin:12px 0 6px}
-.resp-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.resp-tag{background:#fff;border:1px solid #dde;border-radius:20px;padding:3px 10px;font-size:12px;color:#555}
-.note-box{background:#fff8ee;border:1px solid #f0c97033;border-radius:8px;padding:10px 14px;margin:10px 0;font-size:12px;color:#7a4e0a;line-height:1.6}
-.action-box{background:#fef4f4;border:1px solid #e8b4b433;border-radius:8px;padding:10px 14px;margin:10px 0;font-size:12px;color:#7a1a1a;line-height:1.6}
-.virtuous{background:#eef2fb;border:1px solid #c5d5f033;border-radius:8px;padding:10px 14px;margin:10px 0;font-size:12px;color:#1a2a5a;line-height:1.7}
-.inner-table{width:100%;font-size:12px;border-collapse:collapse;margin:8px 0}
-.inner-table th{text-align:left;padding:7px 10px;border:1px solid #e8e8ec;color:#888;font-weight:600;font-size:11px;background:#f0f0f4}
-.inner-table td{padding:8px 10px;border:1px solid #e8e8ec}
-
-/* FOOTER */
-.footer{text-align:center;padding:20px;font-size:11px;color:#aaa;border-top:1px solid #f0f0f4;margin-top:8px}
+.etapa-body ul,.etapa-body ol{padding-left:18px;margin:6px 0 10px}
+.etapa-body li{margin-bottom:4px}
+.sub{font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:600;color:#888;margin:12px 0 6px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{background:#fff;border:1px solid #dde;border-radius:20px;padding:3px 10px;font-size:12px;color:#555}
+.flow{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;align-items:center}
+.flow-step{display:flex;align-items:center;gap:4px}
+.flow-num{background:#1a5fa5;color:#fff;border-radius:50%;width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:600;flex-shrink:0}
+.flow-text{font-size:12px}
+.flow-arr{color:#ccc;font-size:12px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.col-title{font-weight:600;font-size:12px;margin-bottom:6px}
+.conclusion-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.con-card{border-radius:10px;padding:14px 16px;text-align:center}
+.con-icon{font-size:24px;font-weight:700;margin-bottom:4px}
+.con-text{font-size:13px;font-weight:500}
+.footer{text-align:center;padding:20px;font-size:11px;color:#aaa;border-top:1px solid #f0f0f4}
+.hub-item{font-size:13px;color:#444;margin-bottom:4px}
 </style>
 </head>
 <body>
@@ -107,340 +109,425 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:#f4f4f6;color:#1a1a1a;mi
 <!-- HEADER -->
 <div class="header">
   <div>
-    <div class="logo-g7-text">G7Cripto</div>
-    <div class="logo-g7-sub">G7 Business Solutions Corp.</div>
+    <div class="logo">G7Cripto</div>
+    <div class="logo-sub">G7 Business Solutions Corp.</div>
   </div>
-  <div class="header-center">
-    <div class="header-title">Alianza estratégica</div>
-    <div class="header-sub">Hoja de ruta actualizada · 19 de abril de 2026</div>
+  <div class="hc">
+    <div class="hc-t">Alianza Estratégica</div>
+    <div class="hc-s">Hoja de ruta actualizada · 25 de abril de 2026</div>
   </div>
-  <div>
-    <div class="sinparty-name">sinparty<span class="sinparty-star">✦</span></div>
-  </div>
+  <div class="sinparty">sinparty<span style="font-size:12px">✦</span></div>
 </div>
 
-<!-- CONTENT -->
 <div class="content">
 
-  <!-- NOTA VIVA -->
-  <div style="background:#fff8e1;border:1px solid #f9a825;border-left:4px solid #f9a825;border-radius:8px;padding:13px 18px;margin:24px 0 8px;font-size:13px;color:#5a3e00;line-height:1.75;display:flex;align-items:flex-start;gap:10px">
-    <span style="font-size:18px;flex-shrink:0">⚡</span>
-    <div><strong>Documento en construcción — actualización continua:</strong> Esta Hoja de Ruta es un documento vivo, <strong>modificable en tiempo real</strong>. La idea es ir perfeccionando cada fase hasta tenerla al 100% antes de su ejecución, incorporando nuevos acuerdos, definiciones y actualizaciones a medida que avanza el proceso con SinParty y el equipo interno. Cualquier cambio relevante será comunicado oportunamente. <strong>Última actualización: 19 de abril de 2026.</strong></div>
+  <!-- LIVE NOTE -->
+  <div class="live-note">
+    <span class="live-icon">⚡</span>
+    <div><strong>Documento en construcción — actualización continua:</strong> Esta Hoja de Ruta es un documento vivo, modificable en tiempo real. La idea es ir perfeccionando cada fase hasta tenerla al 100% antes de su ejecución, incorporando nuevos acuerdos, definiciones y actualizaciones a medida que avanza el proceso. <strong>Última actualización: 25 de abril de 2026.</strong></div>
   </div>
 
-  <!-- STATUS BANNER -->
-  <div class="status-banner">
+  <!-- STATUS -->
+  <div class="status-grid">
     <div>
-      <div class="status-label">Infraestructura G7Cripto</div>
-      <div class="status-val"><span class="badge-ready">✓ Lista</span> &nbsp;CaaS (Binance) + BaaS (Globa66)</div>
+      <div class="s-label">Infraestructura G7Cripto</div>
+      <div class="s-val"><span class="badge b-ready">✓ Lista</span> CaaS (Binance) + BaaS (Globa66) — G7BS</div>
     </div>
     <div>
-      <div class="status-label">Integración técnica SinParty</div>
-      <div class="status-val"><span class="badge-pending">En progreso</span> &nbsp;USDC · BTC · ETH</div>
+      <div class="s-label">Integración técnica SinParty</div>
+      <div class="s-val"><span class="badge b-pending">En progreso</span> USDC · BTC · ETH</div>
     </div>
     <div>
-      <div class="status-label">Criptos activas</div>
-      <div class="status-val">USDC · BTC · ETH &nbsp;(no USDT — política de seguridad)</div>
+      <div class="s-label">Criptos activas</div>
+      <div class="s-val">USDC · BTC · ETH (no USDT — política de seguridad)</div>
     </div>
     <div>
-      <div class="status-label">Ciclo de pago SinParty</div>
-      <div class="status-val">Corte dom. 7 pm · Revisión lun. · Pago mié.</div>
+      <div class="s-label">Campaña de activación</div>
+      <div class="s-val"><span class="badge b-pending">Activa</span> 27–29 abril · Email + WhatsApp · ~27.000 usuarios</div>
     </div>
   </div>
 
-  <!-- COST TABLE -->
-  <div class="section-title">Comparativa de costos para modelos y estudios</div>
-  <table class="cost-table">
-    <tr><th>Método</th><th>Costo</th><th>Fee fijo</th><th>Velocidad de pago</th></tr>
-    <tr>
-      <td>Paxum</td>
-      <td><span class="pill-bad">3.5% – 8%</span></td>
-      <td>Hasta USD $5</td>
-      <td>Mismo día *</td>
-    </tr>
-    <tr>
-      <td>Littio</td>
-      <td><span class="pill-bad">3.5% – 8%</span></td>
-      <td>Hasta USD $5</td>
-      <td>Mismo día *</td>
-    </tr>
-    <tr class="highlight">
-      <td><strong>G7Cripto en SinParty</strong></td>
-      <td><span class="pill-good">0.8% sobre tasa spot en tiempo real</span><br><span style="font-size:11px;color:#555;margin-top:3px;display:block">Mismo % para cripto y USD</span></td>
-      <td><span class="pill-good">Sin fee fijo</span></td>
-      <td><span class="pill-day">Mismo día</span></td>
-    </tr>
-  </table>
-  <div style="background:#f0f6ff;border:1px solid #c5d5f0;border-radius:8px;padding:12px 16px;margin:-16px 0 24px;font-size:12px;color:#1a2a5a;line-height:1.7">
-    <strong>* Nota sobre el mercado:</strong> Gracias a las nuevas tecnologías de pagos, plataformas como Paxum y Littio también han mejorado sus tiempos de pago y hoy ofrecen transferencias el mismo día. En Colombia, el mecanismo <strong>Bre-B</strong> ha acelerado significativamente los pagos inmediatos en moneda local. Sin embargo, <strong>nuestro diferencial no es solo la velocidad</strong> — es la combinación de <strong>monetización al costo más bajo del mercado: solo el 0.8% sobre la tasa spot en tiempo real</strong>, aplicado por igual ya sea que recibas en <strong>cripto o en USD</strong>, pagos el mismo día, y los <strong>beneficios exclusivos de la alianza con SinParty</strong>: 100% de ganancias por 6 meses, TRM especial y acceso al programa VIP Creators. Eso es lo que ningún competidor puede igualar hoy.
-    <br><br>
-    <strong>** Nota exclusividad:</strong> Paxum y Littio son plataformas de pagos generales, <strong>no exclusivas para el gremio del streaming adulto</strong>. Sus tiempos de respuesta y disponibilidad dependen de su operación global y de la prioridad que le asignen a cada segmento. <strong>G7Cripto, en cambio, es una plataforma diseñada y operada exclusivamente para el mercado de streaming adulto en LATAM</strong> — lo que garantiza atención prioritaria, procesos adaptados al gremio y disponibilidad enfocada 100% en las necesidades de modelos y estudios.
-    <br><br>
-    <strong>*** Nota de respaldo legal y cumplimiento:</strong> <strong>Binance y Global66 aprobaron expresamente la operación de G7Cripto para el gremio de streaming adulto.</strong> Nuestros bancos en USA y nuestros aliados estratégicos en LATAM conocen el modelo de negocio y fuimos evaluados y aprobados por sus respectivas áreas de cumplimiento legal (compliance) para operar en este mercado. Esto significa que modelos, estudios y plataformas que trabajen con G7Cripto lo hacen bajo un marco completamente legal, respaldado y transparente — algo que no todos los métodos de pago del mercado pueden garantizar.
+  <!-- CONTEXT -->
+  <div class="sec-title">Contexto estratégico</div>
+  <div class="card">
+    G7 evoluciona de monetizador tradicional a <strong>facilitador de pagos 100% en cripto en LATAM</strong>, operando bajo licencias reguladas:
+    <ul>
+      <li><strong>CaaS</strong> — Binance (infraestructura cripto)</li>
+      <li><strong>BaaS</strong> — Global66, SEDPE licenciada (pagos fiat en LATAM)</li>
+    </ul>
+    Modelo diseñado para evitar operar como MSB, enfocado en captación LATAM bajo cumplimiento legal total.
+    <div class="note note-info">G7 no custodia fondos. Opera bajo Binance (cripto) y Global66 (fiat) — ambos aprobados por sus áreas de compliance para el gremio de streaming adulto.</div>
+  </div>
+
+  <!-- PROPUESTA DE PAGOS -->
+  <div class="sec-title">Propuesta de pagos G7BS — App G7Cripto</div>
+  <div class="card">
+    <strong>G7BS</strong>, bajo la app <strong>G7Cripto</strong>, ofrece pagos <strong>100% en cripto</strong> para modelos y estudios en LATAM, con las siguientes condiciones:
+    <ul>
+      <li><strong>0.8%</strong> sobre tasa spot en tiempo real — mismo porcentaje para cripto y USD</li>
+      <li><strong>Sin fee fijo</strong> — sin cobros adicionales por transacción</li>
+      <li><strong>Pagos el mismo día</strong> — disponibilidad inmediata</li>
+      <li><strong>0% fee</strong> por envío de cripto desde SinParty (confirmado por SinParty)</li>
+    </ul>
+    <div class="note note-info">G7BS no custodia fondos. Opera bajo Binance (CaaS) y Global66 (BaaS) — ambos aprobados por sus áreas de compliance para el gremio de streaming adulto en LATAM.</div>
+
   </div>
 
   <!-- TEAMS -->
-  <div class="section-title">Equipos de la alianza</div>
+  <div class="sec-title">Equipos de la alianza</div>
   <div class="teams-grid">
-    <div class="team-card g7">
-      <div class="team-card-title">G7BS / G7Cripto</div>
-      <div class="team-member"><div class="avatar av-blue">GV</div><div><div class="member-name">Guillermo L. Valencia</div><div class="member-role">Dirección estratégica</div></div></div>
-      <div class="team-member"><div class="avatar av-blue">HT</div><div><div class="member-name">Hammer Tapias</div><div class="member-role">Líder principal de la alianza</div></div></div>
-      <div class="team-member"><div class="avatar av-blue">OG</div><div><div class="member-name">Oscar Gallego (DRILLER)</div><div class="member-role">Director podcast CLICK_FINANCIERO</div></div></div>
-      <div class="team-member"><div class="avatar av-blue">NK</div><div><div class="member-name">Nicki</div><div class="member-role">Líder de marketing</div></div></div>
-      <div class="team-member"><div class="avatar av-blue">TH</div><div><div class="member-name">THIAGO</div><div class="member-role">Embajador e influencer de marca</div></div></div>
-      <div class="team-member"><div class="avatar av-blue">KB</div><div><div class="member-name">Kevin Barragán</div><div class="member-role">Diseñador gráfico</div></div></div>
-      <div class="team-member"><div class="avatar av-blue">OP</div><div><div class="member-name">Orlando Pacheco</div><div class="member-role">Líder IA / Automatización</div></div></div>
-      <div class="team-member"><div class="avatar av-blue">MR</div><div><div class="member-name">Equipo Mike Rojo</div><div class="member-role">Dirección y producción audiovisual</div></div></div>
+    <div class="team-card tc-g7">
+      <div class="tc-title">G7BS / G7Cripto</div>
+      <div class="member"><div class="avatar av-blue">GV</div><div><div class="m-name">Guillermo L. Valencia</div><div class="m-role">Dirección estratégica</div></div></div>
+      <div class="member"><div class="avatar av-blue">HT</div><div><div class="m-name">Hammer Tapias</div><div class="m-role">Líder principal de la alianza</div></div></div>
+      <div class="member"><div class="avatar av-blue">OG</div><div><div class="m-name">Oscar Gallego (DRILLER)</div><div class="m-role">Director podcast CLICK_FINANCIERO</div></div></div>
+      <div class="member"><div class="avatar av-blue">NK</div><div><div class="m-name">Nicki</div><div class="m-role">Líder de marketing</div></div></div>
+      <div class="member"><div class="avatar av-blue">TH</div><div><div class="m-name">THIAGO</div><div class="m-role">Embajador e influencer de marca</div></div></div>
+      <div class="member"><div class="avatar av-blue">KB</div><div><div class="m-name">Kevin Barragán</div><div class="m-role">Diseñador gráfico</div></div></div>
+      <div class="member"><div class="avatar av-blue">OP</div><div><div class="m-name">Orlando Pacheco</div><div class="m-role">Líder IA / Automatización</div></div></div>
+      <div class="member"><div class="avatar av-blue">MR</div><div><div class="m-name">Equipo Mike Rojo</div><div class="m-role">Dirección y producción audiovisual</div></div></div>
     </div>
-    <div class="team-card sin">
-      <div class="team-card-title">SinParty</div>
-      <div class="team-member"><div class="avatar av-dark">BG</div><div><div class="member-name">Bogdan</div><div class="member-role">Contacto principal</div></div></div>
-      <div class="team-member"><div class="avatar av-dark">DN</div><div><div class="member-name">Daniela</div><div class="member-role">Contacto operativo</div></div></div>
-    </div>
-  </div>
-
-  <!-- ═══ FASE I ═══ -->
-  <div class="phase-block">
-    <div class="phase-header ph1">
-      <div>
-        <div class="phase-label">Fase I</div>
-        <div class="phase-name">Fundamentos y preparación</div>
-      </div>
-      <div class="phase-date">Inmediato — antes del 26 de abril de 2026</div>
-    </div>
-
-    <div class="etapa">
-      <div class="etapa-header" onclick="toggle(this)">
-        <div class="etapa-num num-done">1</div>
-        <div class="etapa-title">Alineación estratégica inicial</div>
-        <span class="etapa-status st-done">✓ Completada</span>
-        <span class="etapa-arrow">›</span>
-      </div>
-      <div class="etapa-body">
-        SinParty aprobó la alianza. Se validaron el alcance, los objetivos y la estructura del trabajo conjunto. El equipo técnico de SinParty ya trabaja en la integración con USDC, BTC y ETH. G7Cripto está operativamente listo: <strong>CaaS con Binance</strong> y <strong>BaaS con Globa66</strong> activados.
-        <div class="note-box">Nota estratégica: G7Cripto está completamente listo. Solo se espera la actualización del equipo técnico de SinParty para activar la conexión.</div>
-      </div>
-    </div>
-
-    <div class="etapa">
-      <div class="etapa-header" onclick="toggle(this)">
-        <div class="etapa-num num-done">2</div>
-        <div class="etapa-title">Propuesta de valor conjunta</div>
-        <span class="etapa-status st-done">✓ Aprobada por G7BS</span>
-        <span class="etapa-arrow">›</span>
-      </div>
-      <div class="etapa-body">
-        <div class="sub-title">Onboarding — 5 pasos</div>
-        <ul>
-          <li>Descarga la App G7Cripto</li>
-          <li>Verificación KYC — rápido y seguro</li>
-          <li>Activación de cuenta</li>
-          <li>Selecciona la moneda de tu wallet (USDC, BTC, ETH u otras)</li>
-          <li><strong>Wallet activa en un solo clic</strong> — copia y pega en SinParty. Listo.</li>
-        </ul>
-        <div class="sub-title">Beneficios exclusivos al monetizar con G7Cripto en SinParty</div>
-        <ul>
-          <li><strong>100% de ganancias</strong> de clientes leales por 6 meses</li>
-          <li><strong>Cobros diarios</strong> — tu dinero el mismo día</li>
-          <li><strong>Solo 0.8%</strong> sobre tasa de cambio (vs. 3.5%–8% + fee de Paxum/Littio)</li>
-          <li><strong>TRM especial</strong> por operar con G7Cripto</li>
-          <li><strong>Acceso al programa VIP Creators</strong> — gana dinero solo por estar online</li>
-        </ul>
-        <div class="sub-title">Modelo caja negra</div>
-        El proceso cripto es invisible para la modelo. Solo ve su dinero llegar el mismo día, en su cuenta, al menor costo posible. Si desea recibir en cripto o en dólares, G7Cripto gestiona la conversión.
-        <div class="virtuous">Ciclo virtuoso → Modelo descarga G7Cripto → activa wallet → cobra diario en SinParty → aumenta actividad → convence a sus clientes de migrar → crece la base de usuarios de SinParty en LATAM → G7Cripto se consolida como infraestructura de pagos preferida.</div>
-      </div>
-    </div>
-
-    <div class="etapa">
-      <div class="etapa-header" onclick="toggle(this)">
-        <div class="etapa-num num-progress">3</div>
-        <div class="etapa-title">Primer comunicado conjunto</div>
-        <span class="etapa-status st-progress">En curso</span>
-        <span class="etapa-arrow">›</span>
-      </div>
-      <div class="etapa-body">
-        Primer mensaje oficial coordinado entre ambas partes hacia sus bases de datos en LATAM. Un comunicado estratégico único, claro y contundente.
-        <div class="sub-title">Mensaje central — ¿qué ganan modelos y estudios?</div>
-        <ul>
-          <li><strong>Cobros diarios</strong> — tu dinero el mismo día</li>
-          <li><strong>100% de ganancias</strong> de clientes leales por 6 meses</li>
-          <li><strong>Solo 0.8%</strong> sobre tasa de cambio — sin fees fijos, sin sorpresas</li>
-          <li>Activación en minutos: descarga → KYC → wallet → copia y pega en SinParty</li>
-          <li>Sin conocimientos técnicos de cripto necesarios</li>
-        </ul>
-        <div class="sub-title">Canales desde G7BS</div>
-        <ul>
-          <li>Video con <strong>THIAGO</strong> como embajador de marca</li>
-          <li>Campaña WhatsApp con IA — <strong>Orlando Pacheco</strong></li>
-          <li>Piezas gráficas — <strong>Kevin Barragán</strong></li>
-        </ul>
-        <div class="action-box">⚠ Acción pendiente SinParty: confirmar canal de distribución (email, WhatsApp, notificación in-app u otro) para adaptar el diseño de las piezas.</div>
-        <div class="action-box">⚠ Punto crítico pendiente: ¿SinParty cobra fee por envíos en cripto? En caso afirmativo, analizar cómo se adiciona en la estructura de monetización de G7Cripto sin impactar a la modelo. Propuesta: G7Cripto absorbe ese costo y lo reintegra a SinParty → mensaje al mercado: "cobra diario, sin costos de envío".</div>
-        <div class="sub-title">Responsables</div>
-        <div class="resp-list">
-          <span class="resp-tag">Hammer Tapias — coordinación y seguimiento con SinParty</span>
-          <span class="resp-tag">→ informa a Guillermo L. Valencia</span>
-          <span class="resp-tag">Kevin Barragán — piezas gráficas</span>
-          <span class="resp-tag">THIAGO — video embajador</span>
-          <span class="resp-tag">Orlando Pacheco — campaña WhatsApp IA</span>
-        </div>
-      </div>
+    <div class="team-card tc-sin">
+      <div class="tc-title">SinParty</div>
+      <div class="member"><div class="avatar av-dark">AS</div><div><div class="m-name">Ashley James</div><div class="m-role">CEO – Jefe de SinParty</div></div></div>
+      <div class="member"><div class="avatar av-dark">BG</div><div><div class="m-name">Bogdan Arsenie</div><div class="m-role">Equipo Europa</div></div></div>
+      <div class="member"><div class="avatar av-dark">BR</div><div><div class="m-name">Brett Solomon</div><div class="m-role">Marketing SinParty</div></div></div>
+      <div class="member"><div class="avatar av-dark">DN</div><div><div class="m-name">Daniela Guzmán</div><div class="m-role">Representante SinParty Latinoamérica</div></div></div>
+      <div class="tc-title" style="margin-top:14px">Hub de Beneficios</div>
+      <div class="hub-item">· G7Cripto</div>
+      <div class="hub-item">· SinParty</div>
+      <div class="hub-item">· Mandala</div>
+      <div class="hub-item">· Guía Cereza</div>
+      <div class="hub-item">· Michell Arguello</div>
+      <div class="hub-item">· Neum</div>
     </div>
   </div>
 
-  <!-- ═══ FASE II ═══ -->
-  <div class="phase-block">
-    <div class="phase-header ph2">
-      <div>
-        <div class="phase-label">Fase II</div>
-        <div class="phase-name">Lalexpo — Lanzamiento público y producción de contenido</div>
-      </div>
-      <div class="phase-date">26 · 27 · 28 de abril de 2026</div>
-    </div>
+  <!-- TIMELINE -->
+  <div class="sec-title">Trazabilidad y cronología</div>
+  <div class="timeline">
+    <div class="tl-item"><div class="tl-dot tl-done"></div><div style="font-size:12px"><strong style="color:#1a3fa5">03–10 abril</strong> — Contacto inicial</div></div>
+    <div class="tl-item"><div class="tl-dot tl-done"></div><div style="font-size:12px"><strong style="color:#1a3fa5">10–18 abril</strong> — Alineación estratégica</div></div>
+    <div class="tl-item"><div class="tl-dot tl-done"></div><div style="font-size:12px"><strong style="color:#1a3fa5">19 abril</strong> — Hoja de ruta inicial publicada</div></div>
+    <div class="tl-item"><div class="tl-dot tl-done"></div><div style="font-size:12px"><strong style="color:#1a3fa5">20–24 abril</strong> — Validación técnica y comercial</div></div>
+    <div class="tl-item"><div class="tl-dot tl-prog"></div><div style="font-size:12px"><strong style="color:#1a5fa5">25 abril</strong> — Activación campaña de marketing</div></div>
+    <div class="tl-item"><div class="tl-dot tl-pend"></div><div style="font-size:12px"><strong style="color:#888">27–29 abril</strong> — Ejecución + LALExpo</div></div>
+    <div class="tl-item"><div class="tl-dot tl-pend"></div><div style="font-size:12px"><strong style="color:#888">Mayo</strong> — Escalamiento LATAM</div></div>
+  </div>
 
-    <div class="etapa">
-      <div class="etapa-header" onclick="toggle(this)">
-        <div class="etapa-num num-pending">4</div>
-        <div class="etapa-title">Lalexpo — Podcast CLICK_FINANCIERO y producción de contenido</div>
-        <span class="etapa-status st-pending">Pendiente</span>
-        <span class="etapa-arrow">›</span>
-      </div>
-      <div class="etapa-body">
-        G7BS adquirió un espacio en la <strong>Lalexpo</strong> con el objetivo principal de <strong>producir contenido para redes sociales</strong> y lanzar públicamente la alianza SinParty x G7Cripto ante la industria en LATAM.
-        <div class="sub-title">Podcast CLICK_FINANCIERO</div>
-        Dirigido por <strong>Oscar Gallego (DRILLER)</strong>. Su rol es exclusivamente hacer visible la estrategia de G7Cripto y SinParty mediante <strong>entrevistas estratégicas</strong> con actores clave, modelos, estudios y voceros de ambas marcas.
-        <div class="sub-title">Horarios de entrevistas — pendientes de confirmar</div>
-        <table class="inner-table">
-          <tr><th>Día</th><th>Fecha</th><th>Horario</th><th>Tema / Entrevistado</th><th>Estado</th></tr>
-          <tr><td>Día 1</td><td>26 de abril</td><td>Por definir</td><td>Por definir</td><td><span class="badge-pending">⏳ Pendiente</span></td></tr>
-          <tr><td>Día 2</td><td>27 de abril</td><td>Por definir</td><td>Por definir</td><td><span class="badge-pending">⏳ Pendiente</span></td></tr>
-          <tr><td>Día 3</td><td>28 de abril</td><td>Por definir</td><td>Por definir</td><td><span class="badge-pending">⏳ Pendiente</span></td></tr>
-        </table>
-        <div class="action-box">⚠ Hammer Tapias debe coordinar con el equipo de SinParty para definir agenda de horarios e informar a Guillermo L. Valencia.</div>
-        <div class="sub-title">Producción de contenido durante y post-evento</div>
-        <ul>
-          <li>Episodios del podcast CLICK_FINANCIERO con entrevistas estratégicas</li>
-          <li>Videos, reels y clips para Instagram, TikTok y YouTube</li>
-          <li>Piezas gráficas producidas por Kevin Barragán</li>
-          <li>Testimonios de modelos y estudios en el espacio del evento</li>
-          <li>Todo el material se distribuirá de forma dosificada y estratégica en las semanas posteriores</li>
-        </ul>
-        <div class="sub-title">Responsables</div>
-        <div class="resp-list">
-          <span class="resp-tag">Oscar Gallego (DRILLER) — dirección del podcast y entrevistas</span>
-          <span class="resp-tag">THIAGO — embajador e influencer en el evento</span>
-          <span class="resp-tag">Nicki — redes en tiempo real y edición de videos</span>
-          <span class="resp-tag">Kevin Barragán — piezas gráficas</span>
-          <span class="resp-tag">Equipo Mike Rojo — dirección y asistencia técnica de grabaciones</span>
-          <span class="resp-tag">Hammer Tapias — coordinación general + apoyo a DRILLER en el podcast</span>
+  <!-- PHASE I -->
+  <div class="phase-header ph1">
+    <div><div class="ph-label">Fase I</div><div class="ph-name">Fundamentos y preparación</div></div>
+    <div class="ph-date">✓ Completada</div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-done">1</div>
+      <div class="etapa-title">Alineación estratégica inicial</div>
+      <span class="estatus es-done">✓ Completada</span>
+      <span class="arrow">›</span>
+    </div>
+    <div class="etapa-body">
+      SinParty aprobó la alianza. Equipo técnico de SinParty trabajando en integración con USDC, BTC y ETH. G7Cripto operativamente listo: CaaS (Binance) + BaaS (Globa66).
+      <div class="note note-info">Nota estratégica: G7Cripto está completamente listo. Solo se espera la actualización del equipo técnico de SinParty para activar la conexión.</div>
+    </div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-done">2</div>
+      <div class="etapa-title">Propuesta de valor conjunta</div>
+      <span class="estatus es-done">✓ Aprobada por G7BS</span>
+      <span class="arrow">›</span>
+    </div>
+    <div class="etapa-body">
+      <div class="sub">Flujo completo G7Cripto — 8 pasos</div>
+      <ol>
+        <li>Descarga de la app</li>
+        <li>KYC + validación interna</li>
+        <li>Creación de wallet en Binance</li>
+        <li>Registro en SinParty</li>
+        <li>Recepción de pagos en cripto</li>
+        <li>Disponibilidad inmediata</li>
+        <li>Conversión vía Global66</li>
+        <li>Pago en cuenta bancaria local</li>
+      </ol>
+      <div class="two-col" style="margin-top:12px">
+        <div>
+          <div class="col-title">Beneficios SinParty</div>
+          <ul>
+            <li>100% ganancias por 6 meses (referidos)</li>
+            <li>0% fee en cripto (confirmado por Ash)</li>
+            <li>Acceso al programa VIP Creators</li>
+            <li>Pagos diarios confirmados</li>
+          </ul>
         </div>
+        <div>
+          <div class="col-title">Beneficios G7Cripto</div>
+          <ul>
+            <li>Pagos mismo día</li>
+            <li>TRM preferencial</li>
+            <li>Solo 0.8% sobre tasa spot</li>
+            <li>Sin fee fijo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="note note-success">✅ Confirmado por SinParty (Ash): Cero fee por pagos en cripto. Retiros instantáneos con cero costo. Pagos diarios confirmados — pendiente automatización de retiros con G7Cripto como próximo paso técnico.</div>
+      <div class="note note-info">"Gana más y recibe tu dinero más rápido, sin complicarte."</div>
+    </div>
+  </div>
+
+  <!-- PHASE II -->
+  <div class="phase-header ph2">
+    <div><div class="ph-label">Fase II</div><div class="ph-name">Lalexpo + Campaña de activación</div></div>
+    <div class="ph-date">27 · 28 · 29 de abril de 2026</div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-prog">3</div>
+      <div class="etapa-title">Campaña de marketing — Email + WhatsApp</div>
+      <span class="estatus es-prog">Activa</span>
+      <span class="arrow">›</span>
+    </div>
+    <div class="etapa-body">
+      <div class="two-col">
+        <div>
+          <div class="col-title">Detalles</div>
+          <ul>
+            <li>Fechas: 27, 28 y 29 de abril</li>
+            <li>Canales: Email + WhatsApp</li>
+            <li>Alcance estimado: ~27.000 usuarios calificados</li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-title">Objetivos</div>
+          <ul>
+            <li>Captar modelos y estudios</li>
+            <li>Posicionar G7Cripto</li>
+            <li>Generar registros reales</li>
+            <li>Validar el modelo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub">Textos de campaña — Beneficios exclusivos para modelos y studios</div>
+      <div class="card" style="margin-top:8px;background:#fff;border:1px solid #e0e8f5">
+        <ul>
+          <li>✅ <strong>100% de tus ganancias por 6 meses</strong> — única plataforma webcam que lo ofrece*</li>
+          <li>✅ <strong>Cero comisión en pagos crypto</strong></li>
+          <li>✅ <strong>Tasa de cambio preferencial por 6 meses</strong> — cada dólar que ganes en SinParty vale más cuando cobras con G7Cripto</li>
+          <li>✅ ¿Prefieres cobrar en USD? <strong>Comisión preferencial de solo 0.8%</strong> — la más baja del mercado</li>
+          <li>✅ <strong>Pago el mismo día</strong> que SinParty paga</li>
+          <li>✅ <strong>Club VIP de modelos</strong></li>
+          <li>✅ <strong>Soporte personalizado en español</strong></li>
+        </ul>
+        <div style="margin-top:12px;padding-top:10px;border-top:1px solid #e8e8ec;font-size:12px;color:#444;line-height:1.8">
+          📌 Regístrate en SinParty: <span style="background:#eef2fb;padding:2px 8px;border-radius:4px;color:#1a3fa5">[ENLACE_SINPARTY — Orlando completa]</span><br>
+          💬 ¿Preguntas? <span style="background:#eef2fb;padding:2px 8px;border-radius:4px;color:#1a3fa5">[ENLACE_WA_G7CRIPTO — Orlando completa]</span><br><br>
+          <span style="color:#888;font-size:11px">*Aplican T&C del plan de referidos. <a href="https://blog.sinparty.com/blog/news/sinparty-100-percent-project-affiliate-link-6-months/" target="_blank" style="color:#1a5fa5">blog.sinparty.com/100-percent-project</a></span><br>
+          <span style="color:#aaa;font-size:11px">Si no deseas recibir más mensajes, responde STOP o haz clic aquí: {{unsubscribe_link}}</span>
+        </div>
+      </div>
+      <div class="sub">Flujo de ejecución</div>
+      <div class="flow">
+        <div class="flow-step"><div class="flow-num">1</div><span class="flow-text">Diseño</span></div><span class="flow-arr">→</span>
+        <div class="flow-step"><div class="flow-num">2</div><span class="flow-text">Automatización</span></div><span class="flow-arr">→</span>
+        <div class="flow-step"><div class="flow-num">3</div><span class="flow-text">Envío por lotes</span></div><span class="flow-arr">→</span>
+        <div class="flow-step"><div class="flow-num">4</div><span class="flow-text">Recepción leads</span></div><span class="flow-arr">→</span>
+        <div class="flow-step"><div class="flow-num">5</div><span class="flow-text">Registro</span></div><span class="flow-arr">→</span>
+        <div class="flow-step"><div class="flow-num">6</div><span class="flow-text">Activación pagos</span></div>
+      </div>
+      <div class="sub">Responsables</div>
+      <div class="tags">
+        <span class="tag">Kevin Barragán — diseño</span>
+        <span class="tag">Orlando Pacheco — automatización</span>
+        <span class="tag">Hammer Tapias — coordinación</span>
       </div>
     </div>
   </div>
 
-  <!-- ═══ FASE III ═══ -->
-  <div class="phase-block">
-    <div class="phase-header ph3">
-      <div>
-        <div class="phase-label">Fase III</div>
-        <div class="phase-name">Activación post-Lalexpo — Tracción y crecimiento</div>
-      </div>
-      <div class="phase-date">Desde el 29 de abril de 2026</div>
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-prog">4</div>
+      <div class="etapa-title">Lalexpo — Podcast CLICK_FINANCIERO y producción de contenido</div>
+      <span class="estatus es-prog">En ejecución</span>
+      <span class="arrow">›</span>
     </div>
-
-    <div class="etapa">
-      <div class="etapa-header" onclick="toggle(this)">
-        <div class="etapa-num num-pending">5</div>
-        <div class="etapa-title">Distribución de contenido y campañas digitales</div>
-        <span class="etapa-status st-pending">Pendiente</span>
-        <span class="etapa-arrow">›</span>
-      </div>
-      <div class="etapa-body">
-        <ul>
-          <li>Publicación dosificada de episodios, reels y entrevistas del podcast CLICK_FINANCIERO</li>
-          <li>Campañas en redes sociales con THIAGO como voz principal</li>
-          <li>Campaña WhatsApp masiva con IA liderada por Orlando Pacheco</li>
-          <li>Evaluación de programa de embajadores nacionales e internacionales <em>(oportunidad identificada por SinParty)</em></li>
-        </ul>
-        <div class="sub-title">Responsables</div>
-        <div class="resp-list">
-          <span class="resp-tag">THIAGO</span>
-          <span class="resp-tag">Orlando Pacheco</span>
-          <span class="resp-tag">Kevin Barragán</span>
-          <span class="resp-tag">Nicki</span>
-          <span class="resp-tag">Hammer Tapias</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="etapa">
-      <div class="etapa-header" onclick="toggle(this)">
-        <div class="etapa-num num-pending">6</div>
-        <div class="etapa-title">Educación de mercado y posicionamiento</div>
-        <span class="etapa-status st-pending">Pendiente</span>
-        <span class="etapa-arrow">›</span>
-      </div>
-      <div class="etapa-body">
-        <ul>
-          <li>Monetización diaria vs. ciclo semanal tradicional</li>
-          <li>Comparativa de costos: 0.8% G7Cripto vs. 3.5%–8% de Paxum y Littio</li>
-          <li>Ventajas del cripto sin fricciones técnicas — narrativa modelo caja negra</li>
-          <li>Confianza, seguridad y respaldo: Binance CaaS + Globa66 BaaS</li>
-        </ul>
-        <div class="sub-title">Responsables</div>
-        <div class="resp-list">
-          <span class="resp-tag">Hammer Tapias</span>
-          <span class="resp-tag">Kevin Barragán</span>
-          <span class="resp-tag">Oscar Gallego (DRILLER) — vía podcast CLICK_FINANCIERO</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="etapa">
-      <div class="etapa-header" onclick="toggle(this)">
-        <div class="etapa-num num-pending">7</div>
-        <div class="etapa-title">Conversión y crecimiento conjunto</div>
-        <span class="etapa-status st-pending">Pendiente</span>
-        <span class="etapa-arrow">›</span>
-      </div>
-      <div class="etapa-body">
-        <div class="sub-title">Objetivos</div>
-        <ul>
-          <li>Atraer nuevos modelos y estudios a SinParty desde LATAM</li>
-          <li>Fortalecer la confianza comercial de la plataforma en la región</li>
-          <li>Posicionar G7Cripto como opción de pago preferida dentro del ecosistema SinParty</li>
-          <li>Construir una alianza sostenible con beneficios concretos para ambas partes</li>
-        </ul>
-        <div class="sub-title">Métricas clave</div>
-        <ul>
-          <li>Modelos y estudios registrados en SinParty vía G7Cripto</li>
-          <li>Volumen de pagos procesados en cripto dentro de SinParty</li>
-          <li>Adopción del programa VIP Creators vinculado a G7Cripto</li>
-          <li>Reducción de fricción operativa frente a Paxum y Littio</li>
-          <li>Alcance y engagement del contenido generado en Lalexpo</li>
-        </ul>
-        <div class="sub-title">Responsables</div>
-        <div class="resp-list">
-          <span class="resp-tag">Hammer Tapias — seguimiento operativo</span>
-          <span class="resp-tag">Guillermo L. Valencia — dirección estratégica final</span>
-        </div>
+    <div class="etapa-body">
+      <strong>Agenda:</strong><br>
+      · 27 de abril — Bienvenida y preparación<br>
+      · 28 y 29 de abril — Evento principal<br><br>
+      <div class="sub">Podcast CLICK_FINANCIERO</div>
+      <ul>
+        <li>Entrevistas a CEOs y actores clave de la industria</li>
+        <li>Contenido estratégico sobre la alianza G7Cripto x SinParty</li>
+        <li>Posicionamiento de la alianza ante el mercado LATAM</li>
+        <li><strong>Prioridad: entrevista con Daniela (SinParty)</strong></li>
+      </ul>
+      <div class="note note-warn">Estrategia: generar contenido masivo durante el evento para distribuirlo de forma dosificada y estratégica en las semanas siguientes.</div>
+      <div class="sub">Responsables</div>
+      <div class="tags">
+        <span class="tag">Daniela Guzmán (SinParty) — coordinación estratégica evento</span>
+        <span class="tag">Oscar Gallego (DRILLER) — dirección del podcast</span>
+        <span class="tag">THIAGO — embajador en el evento</span>
+        <span class="tag">Nicki — redes en tiempo real y edición</span>
+        <span class="tag">Kevin Barragán — piezas gráficas</span>
+        <span class="tag">Equipo Mike Rojo — producción audiovisual</span>
+        <span class="tag">Hammer Tapias — coordinación + apoyo a DRILLER</span>
       </div>
     </div>
   </div>
+
+  <!-- PHASE III -->
+  <div class="phase-header ph3">
+    <div><div class="ph-label">Fase III</div><div class="ph-name">Escalamiento post-Lalexpo — Tracción y crecimiento LATAM</div></div>
+    <div class="ph-date">Mayo 2026 en adelante</div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-pend">5</div>
+      <div class="etapa-title">Distribución de contenido y campañas digitales</div>
+      <span class="estatus es-pend">Pendiente</span>
+      <span class="arrow">›</span>
+    </div>
+    <div class="etapa-body">
+      <ul>
+        <li>Publicación dosificada de episodios, reels y entrevistas del podcast CLICK_FINANCIERO</li>
+        <li>Campañas en redes sociales con THIAGO como voz principal</li>
+        <li>Campaña WhatsApp masiva con IA — Orlando Pacheco</li>
+        <li>Evaluación de programa de embajadores nacionales e internacionales</li>
+      </ul>
+      <div class="sub">Responsables</div>
+      <div class="tags">
+        <span class="tag">THIAGO</span><span class="tag">Orlando Pacheco</span><span class="tag">Kevin Barragán</span><span class="tag">Nicki</span><span class="tag">Hammer Tapias</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-pend">6</div>
+      <div class="etapa-title">Educación de mercado y posicionamiento</div>
+      <span class="estatus es-pend">Pendiente</span>
+      <span class="arrow">›</span>
+    </div>
+    <div class="etapa-body">
+      <ul>
+        <li>Monetización diaria vs. ciclo semanal tradicional</li>
+        <li>Comparativa: 0.8% G7Cripto vs. 3.5%–8% Paxum/Littio</li>
+        <li>Ventajas del cripto sin fricciones — narrativa modelo caja negra</li>
+        <li>Confianza, seguridad y respaldo: Binance CaaS + Globa66 BaaS</li>
+      </ul>
+      <div class="sub">Responsables</div>
+      <div class="tags">
+        <span class="tag">Hammer Tapias</span><span class="tag">Kevin Barragán</span><span class="tag">Oscar Gallego (DRILLER) — vía podcast</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-pend">7</div>
+      <div class="etapa-title">Conversión y crecimiento conjunto</div>
+      <span class="estatus es-pend">Pendiente</span>
+      <span class="arrow">›</span>
+    </div>
+    <div class="etapa-body">
+      <div class="two-col">
+        <div>
+          <div class="col-title">Objetivos</div>
+          <ul>
+            <li>Atraer modelos y estudios a SinParty desde LATAM</li>
+            <li>Fortalecer confianza comercial en la región</li>
+            <li>Posicionar G7Cripto como pago preferido en SinParty</li>
+            <li>Alianza sostenible con beneficios para ambas partes</li>
+          </ul>
+        </div>
+        <div>
+          <div class="col-title">Métricas clave</div>
+          <ul>
+            <li>Modelos registrados en SinParty vía G7Cripto</li>
+            <li>Volumen de pagos procesados en cripto</li>
+            <li>Adopción VIP Creators vinculado a G7Cripto</li>
+            <li>Reducción de fricción vs. Paxum / Littio</li>
+            <li>Alcance del contenido generado en Lalexpo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub">Responsables</div>
+      <div class="tags">
+        <span class="tag">Hammer Tapias — seguimiento operativo</span>
+        <span class="tag">Daniela Guzmán (SinParty) — coordinación LATAM</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-hdr" onclick="toggle(this)">
+      <div class="enum en-pend">8</div>
+      <div class="etapa-title">HUB de marcas aliadas — Eventos y workshops por ciudades</div>
+      <span class="estatus es-pend">Proyecto</span>
+      <span class="arrow">›</span>
+    </div>
+    <div class="etapa-body">
+      Proyecto en etapa de conceptualización. La idea es crear un <strong>HUB entre marcas aliadas</strong> que genere beneficios reales y valor tangible para estudios y modelos en LATAM, uniendo fuerzas comerciales, de contenido y de comunidad.
+      <div class="sub">Marcas participantes propuestas</div>
+      <div class="tags">
+        <span class="tag">G7Cripto</span>
+        <span class="tag">SinParty</span>
+        <span class="tag">Guía Cereza</span>
+        <span class="tag">Mandala</span>
+        <span class="tag">Michelle Arguello</span>
+        <span class="tag">Neum</span>
+        <span class="tag">Estrellas WebCam</span>
+      </div>
+      <div class="sub">Concepto del evento</div>
+      <ul>
+        <li>Formato de <strong>workshop o evento por ciudades</strong> — presencial, cercano y replicable</li>
+        <li>Formato <strong>nuevo y novedoso</strong> — diferente a los eventos tradicionales de la industria</li>
+        <li>Modelo <strong>financieramente viable</strong>: costos compartidos entre todas las marcas participantes, reduciendo la inversión individual</li>
+        <li>Cada marca aporta valor desde su especialidad: pagos, plataforma, contenido, comunidad, formación y visibilidad</li>
+        <li>Objetivo: posicionar a las marcas aliadas como el ecosistema más completo y confiable para estudios y modelos en LATAM</li>
+      </ul>
+      <div class="note note-info">💡 Este HUB no es solo un evento — es la construcción de un ecosistema de valor compartido donde cada marca gana visibilidad, credibilidad y acceso a nuevas audiencias, reduciendo costos al distribuirlos entre todos los participantes.</div>
+      <div class="sub">Estado</div>
+      <div class="tags">
+        <span class="tag">🔵 En conceptualización — pendiente de alinear con marcas participantes</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONCLUSION -->
+  <div class="sec-title">Estado actual — Alianza en ejecución real</div>
+  <div class="conclusion-grid">
+    <div class="con-card" style="background:#e6f4ee">
+      <div class="con-icon" style="color:#1a7a42">✓</div>
+      <div class="con-text" style="color:#1a7a42">Infraestructura lista</div>
+    </div>
+    <div class="con-card" style="background:#e8f0fe">
+      <div class="con-icon" style="color:#1a3fa5">✓</div>
+      <div class="con-text" style="color:#1a3fa5">Campaña activa</div>
+    </div>
+    <div class="con-card" style="background:#fff8ee">
+      <div class="con-icon" style="color:#a05e0a">↗</div>
+      <div class="con-text" style="color:#a05e0a">Contenido en producción</div>
+    </div>
+  </div>
+  <div class="note note-success" style="margin-top:10px">🚀 Alianza en ejecución real en LATAM — 25 de abril de 2026</div>
 
 </div>
-Documento preparado por G7 Business Solutions Corp. / G7Cripto · Actualizado: 19 de abril de 2026 · Confidencial</div>
+<div class="footer">Documento preparado por G7 Business Solutions Corp. / G7Cripto · Actualizado: 25 de abril de 2026 · Confidencial</div>
 </div>
 
 <script>
-function toggle(header){
-  var body=header.nextElementSibling;
-  var arrow=header.querySelector('.etapa-arrow');
-  var isOpen=body.classList.contains('open');
-  body.classList.toggle('open',!isOpen);
-  arrow.classList.toggle('open',!isOpen);
+function toggle(hdr){
+  var body=hdr.nextElementSibling;
+  var arrow=hdr.querySelector('.arrow');
+  var open=body.classList.contains('open');
+  body.classList.toggle('open',!open);
+  arrow.classList.toggle('open',!open);
 }
 </script>
 </body>
